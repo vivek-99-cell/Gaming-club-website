@@ -50,6 +50,7 @@ nav a:hover{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    opacity: 50%;
 
     height: 500px;
 
@@ -111,7 +112,7 @@ nav a:hover{
     border-radius:10px;
     width:220px;
     text-align:center;
-    transition: 0.3s;
+    transition: 0.4s;
 }
 
 .card button{
@@ -125,7 +126,7 @@ nav a:hover{
 }
 
 .card:hover{
-    transform:translate(-8px);
+    transform:translate(8px);
 }
 
 .card button:hover{
@@ -412,11 +413,11 @@ footer hr{
     cursor:pointer;
 }
 .game-name{
-    width:250px;
+    width:200px;
 }
 
 .quantity {
-    width:180px;
+    width:10px;
     text-align: center;
 }
 
